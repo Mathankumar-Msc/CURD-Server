@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://Mathan:Mathan123@cluster0.slq6nhk.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://Mathan:Mathan123@cluster0.slq6nhk.mongodb.net/mathan')
 .then(()=>{
     console.log("DB connected");
 }).catch(()=>{
